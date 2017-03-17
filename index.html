@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <title> Movie Planet </title>
+    <link rel="stylesheet" href="https://bootswatch.com/cerulean/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- this is the nav bar div wích is a nav 1-->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html"> Movie Planet</a>
+            </div>
+        </div>
+    </nav>
+    <!-- this conatains the seach form !-->
+    <div class="container">
+        <div class="jumbotron">
+            <h3 class="text-center"> Search for movies </h3>
+            <form id="searchForm">
+                <input type="text" class="form-control" id="searchString" placeholder="Search movie ..." />
+            </form>
+            <p> This is a movie search datadase built with HTML,Javascript and IMDB database. </p>
+            <p>You can seacrch by genre,director author .. </p>
+        </div>
+    </div>
+
+    <!-- This div conatains the result of the query from IMODB !-->
+
+
+    <div class="container">
+        <div id="movies" class="row"></div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src=" js/main.js">
+</script>
+
+</html>

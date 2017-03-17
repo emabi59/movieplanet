@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <title> Movie Planet </title>
+    <link rel="stylesheet" href="https://bootswatch.com/cerulean/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- this is the nav bar div wích is a nav 1-->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html"> Movie Planet</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- This div conatains the result of the query from IMODB !-->
+
+
+    <div class="container">
+        <div id="movie" class="well"></div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src=" js/main.js">
+</script>
+<script>
+    getMovie();
+</script>
+
+</html>
